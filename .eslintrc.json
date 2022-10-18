@@ -1,5 +1,6 @@
 {
-    "extends": [
-        "plugin:react/recommended"
-    ]
+	"env": {
+		"es6": true
+	},
+	"extends": ["plugin:react/recommended", "eslint-config-prettier"]
 }
