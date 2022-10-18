@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:wght@700&family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+/* Navbar */
+body {
+  background-color: #555;
+}
+
+.brand-logo {
+  font-family: 'Cairo Play';
+}
+
+.navbar-fixed {
+  position: absolute;
+  z-index: 999999999;
+}
+
+/* Body */
+:root {
+  --yellow: rgb(253, 216, 53);
+  --blue: rgb(98, 0, 234);
+  --dark: rgb(20, 20, 20);
+  --dark2: rgba(27, 26, 39, 255);
+  --red2: rgba(248, 79, 57, 255);
+}
+
+body {
+  background-color: var(--dark);
+  margin: 0px;
+}
+
+.side {
+  display: grid;
+  height: 100vh;
+  overflow: hidden;
+  place-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+.side .title {
+  /* font-family: "Rubik", sans-serif; */
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5vw;
+  margin: 0px 10vw;
+  width: 80vw;
+}
+
+.side .fancy {
+  font-family: "Lobster", cursive;
+  font-size: 1.3em;
+  line-height: 0.8em;
+}
+
+#left-side {
+  background-color: var(--dark2);
+  width: 60%;
+  z-index: 2;
+}
+
+#left-side .title {
+  color: white;
+}
+
+#left-side .fancy {
+  color: var(--red2);
+}
+
+#right-side {
+  background-color: var(--red2);
+}
+
+#right-side .title {
+  color: var(--dark);
+}
+
+#right-side .fancy {
+  color: white;
+}
+
+.b1 {
+  font-family: 'Satisfy', cursive;
+  background-color: rgb(255, 255, 255, 0.4);
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 15px;
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
