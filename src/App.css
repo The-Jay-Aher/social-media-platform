@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Satisfy&family=Shadows+Into+Light&display=swap');
 
+* {
+  color: white;
+}
 /* Navbar */
 body {
   background-color: #555;
@@ -18,8 +21,6 @@ body {
 
 /* Body */
 :root {
-  --yellow: rgb(253, 216, 53);
-  --blue: rgb(98, 0, 234);
   --dark: rgb(20, 20, 20);
   --dark2: rgba(27, 26, 39, 255);
   --red2: rgba(248, 79, 57, 255);
@@ -81,12 +82,17 @@ body {
 
 .b1 {
   font-family: 'Satisfy', cursive;
-  background-color: rgb(255, 255, 255, 0.4);
+  background-color: var(--dark2, 0.4);
   margin-top: 10px;
   width: 150px;
   border-radius: 15px;
-  color: black;
+  color: var(--red2);
   text-align: center;
   font-size: 1.5rem;
   font-weight: bolder;
+}
+
+.b1:hover{
+  background-color: var(--red2, 0.4);
+  color: var(--dark2);
 }
